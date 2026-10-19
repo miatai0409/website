@@ -153,13 +153,13 @@
 <div class="w-full h-full rounded-2xl overflow-hidden border-2 border-[#1c1c13] dark:border-[#52525b] bg-[#fffbeb] dark:bg-[#18181b] relative">
 <img alt="Mia Tai portrait illustration" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" src="./avatar.jpg">
 </div>
-<!-- Floating Decorative Mini Badge 1 (Top-Left Star) -->
-<div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-[#fef08a] border-2 border-[#1c1c13] flex items-center justify-center text-sm shadow-[2px_2px_0px_#1c1c13] rotate-[-10deg]">
-              ⭐
+<!-- Floating Decorative Mini Badge 1 (Top-Left Goldfish) -->
+<div class="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-[#fef08a] border-2 border-[#1c1c13] flex items-center justify-center text-sm shadow-[2px_2px_0px_#1c1c13] rotate-[-10deg]" title="綽號：金魚 🐠">
+              🐠
             </div>
-<!-- Floating Decorative Mini Badge 2 (Bottom-Right Pencil) -->
-<div class="absolute -bottom-3 -right-3 w-8 h-8 rounded-full bg-[#bae6fd] border-2 border-[#1c1c13] flex items-center justify-center text-sm shadow-[2px_2px_0px_#1c1c13] rotate-[15deg]">
-              ✏️
+<!-- Floating Decorative Mini Badge 2 (Bottom-Right Dumpling) -->
+<div class="absolute -bottom-3 -right-3 w-8 h-8 rounded-full bg-[#bae6fd] border-2 border-[#1c1c13] flex items-center justify-center text-sm shadow-[2px_2px_0px_#1c1c13] rotate-[15deg]" title="綽號：蛋餃 🥟">
+              🥟
             </div>
 </div>
 <!-- Friendly Status Pill -->
@@ -197,6 +197,25 @@
   <span class="text-2xl md:text-3xl font-semibold text-on-surface-variant dark:text-[#a1a1aa] font-body-md" data-i18n="chineseName">(戴詩庭)</span>
   <span class="text-2xl md:text-3xl animate-bounce">⚡</span>
 </h1>
+
+<!-- Basic Profile Badges (綽號 / 高中 / 生日) -->
+<div class="flex flex-wrap items-center gap-2 mt-2.5">
+  <div class="px-3 py-1 bg-[#ffd6ba] dark:bg-[#38261e] border-2 border-[#1c1c13] dark:border-[#71717a] rounded-xl text-xs font-bold text-[#1c1c13] dark:text-[#ffd6ba] shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] inline-flex items-center gap-1.5">
+    <span>🏷️</span>
+    <span class="text-[#5c412c] dark:text-[#fed7aa]" data-i18n="nicknameLabel">綽號：</span>
+    <span data-i18n="nicknames">金魚 / 蛋餃 / 芋頭</span>
+  </div>
+  <div class="px-3 py-1 bg-[#bae6fd] dark:bg-[#16384c] border-2 border-[#1c1c13] dark:border-[#71717a] rounded-xl text-xs font-bold text-[#1c1c13] dark:text-[#bae6fd] shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] inline-flex items-center gap-1.5">
+    <span>🏫</span>
+    <span class="text-[#1e4c5f] dark:text-[#7dd3fc]" data-i18n="highschoolLabel">高中：</span>
+    <span data-i18n="highschool">臺北市立大同高級中學</span>
+  </div>
+  <div class="px-3 py-1 bg-[#fef08a] dark:bg-[#3d3814] border-2 border-[#1c1c13] dark:border-[#71717a] rounded-xl text-xs font-bold text-[#1c1c13] dark:text-[#fef08a] shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] inline-flex items-center gap-1.5">
+    <span>🎂</span>
+    <span class="text-[#713f12] dark:text-[#fde047]" data-i18n="birthdayLabel">生日：</span>
+    <span data-i18n="birthday">2008 / 04 / 09</span>
+  </div>
+</div>
 </div>
 <!-- Say Hello Trigger Button -->
 <a class="px-5 py-2.5 bg-[#292524] dark:bg-[#f4f4f5] text-[#fffbeb] dark:text-[#18181b] rounded-full border-2 border-[#292524] dark:border-[#f4f4f5] font-label-lg text-label-lg shadow-[4px_4px_0px_#ffd6ba] dark:shadow-[4px_4px_0px_#71717a] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[6px_6px_0px_#ffd6ba] dark:hover:shadow-[6px_6px_0px_#a1a1aa] transition-all duration-150 active:translate-x-0 active:translate-y-0 inline-flex items-center gap-1.5 font-bold" href="mailto:miatai0409@gmail.com">
@@ -208,23 +227,80 @@
 <p class="text-body-md font-body-md text-on-surface-variant dark:text-[#d4d4d8] leading-relaxed mb-4" data-i18n="bio">
   熱愛演算法與系統底層技術的資工系學生。從 Discrete Mathematics 的嚴謹證明到 C++ 的記憶體管理，樂於探究程式碼背後的底層運作邏輯，並朝著理想目標持續精進突破！
 </p>
-<!-- Quote Container: Soft Peach Background -->
-<div class="bg-primary-container/80 dark:bg-[#27272a] border-2 border-[#1c1c13] dark:border-[#52525b] rounded-2xl p-4 mb-5 shadow-[3px_3px_0px_#1c1c13] dark:shadow-[3px_3px_0px_#09090b] relative">
-<span class="text-2xl text-primary dark:text-[#f59e0b] font-serif font-black absolute top-2 left-3 leading-none opacity-50">“</span>
-<p class="text-body-md font-body-md text-[#2b1706] dark:text-[#fde047] italic pl-4 font-medium" data-i18n="quote">
-  Talk is cheap. Show me the code.
-</p>
+<!-- Quote Container: Mrs. GREEN APPLE Lyric -->
+<div class="bg-primary-container/80 dark:bg-[#27272a] border-2 border-[#1c1c13] dark:border-[#52525b] rounded-2xl p-4 sm:p-5 mb-5 shadow-[3px_3px_0px_#1c1c13] dark:shadow-[3px_3px_0px_#09090b] relative">
+  <span class="text-3xl text-primary dark:text-[#f59e0b] font-serif font-black absolute top-2 left-3 leading-none opacity-40">“</span>
+  <div class="pl-4">
+    <p class="text-body-sm sm:text-body-md text-[#2b1706] dark:text-[#fde047] italic font-medium leading-relaxed" data-i18n="quote">
+      努力也好，孤獨也好，有時是得不到回報的；但是即使如此，我們也一直走到了今天。人們稱之為日子的，那就是我們的軌跡，也是奇蹟。
+    </p>
+    <p class="text-[11px] sm:text-xs text-[#765842] dark:text-[#a1a1aa] mt-1 font-mono tracking-tight" data-i18n="quoteJp">
+      「努力も孤独も報われないことがある だけどね それでもね 今日まで歩いてきた 日々を人は呼ぶ それがね、軌跡だと」
+    </p>
+    <div class="mt-2 text-right text-xs sm:text-sm font-bold text-[#5c412c] dark:text-[#fde047]/90 flex items-center justify-end gap-1.5">
+      <span class="text-sm">🎵</span>
+      <span data-i18n="quoteAuthor">—— Mrs. GREEN APPLE《僕のこと》</span>
+    </div>
+  </div>
 </div>
-<!-- Multi-colored Pastel Skill Chips -->
+<!-- Interests & Lifestyle Section (興趣與日常生活) -->
 <div class="mb-5">
-<p class="text-label-sm font-label-sm uppercase tracking-wider text-on-surface-variant dark:text-[#a1a1aa] mb-2 font-bold" data-i18n="focusHeader">Focus Areas &amp; Strengths</p>
-<div class="flex flex-wrap gap-2">
-<span class="px-3.5 py-1.5 bg-[#bbf7d0] border-2 border-[#1c1c13] dark:border-[#71717a] rounded-full text-on-surface font-label-md text-label-md shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] font-semibold">#CppProgramming</span>
-<span class="px-3.5 py-1.5 bg-[#bae6fd] border-2 border-[#1c1c13] dark:border-[#71717a] rounded-full text-on-surface font-label-md text-label-md shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] font-semibold">#DiscreteMath</span>
-<span class="px-3.5 py-1.5 bg-[#e9d5ff] border-2 border-[#1c1c13] dark:border-[#71717a] rounded-full text-on-surface font-label-md text-label-md shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] font-semibold">#Calculus</span>
-<span class="px-3.5 py-1.5 bg-[#ffd6ba] border-2 border-[#1c1c13] dark:border-[#71717a] rounded-full text-on-surface font-label-md text-label-md shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] font-semibold">#AlgorithmDesign</span>
-<span class="px-3.5 py-1.5 bg-[#fef08a] border-2 border-[#1c1c13] dark:border-[#71717a] rounded-full text-on-surface font-label-md text-label-md shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] font-semibold">#LinuxDev</span>
-</div>
+  <div class="flex items-center justify-between mb-2.5">
+    <p class="text-label-sm font-label-sm uppercase tracking-wider text-on-surface-variant dark:text-[#a1a1aa] font-bold flex items-center gap-1.5">
+      <span>🎨</span>
+      <span data-i18n="interestsHeader">興趣與日常生活 (Interests &amp; Lifestyle)</span>
+    </p>
+  </div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+    <!-- Item 1: Baseball -->
+    <div class="p-3 bg-[#fef08a]/60 dark:bg-[#3d3814]/70 border-2 border-[#1c1c13] dark:border-[#71717a] rounded-2xl shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] flex items-start gap-2.5">
+      <span class="text-2xl select-none">⚾</span>
+      <div class="flex-1 min-w-0">
+        <h4 class="font-bold text-xs sm:text-sm text-on-surface dark:text-[#f4f4f5]" data-i18n="interestBaseballTitle">看棒球比賽</h4>
+        <p class="text-[11px] sm:text-xs text-on-surface-variant dark:text-[#a1a1aa] mt-0.5 leading-snug" data-i18n="interestBaseballDesc">熱愛觀賞棒球比賽，享受現場熱血張力與球場氛圍</p>
+      </div>
+    </div>
+    <!-- Item 2: Photography & Notes -->
+    <div class="p-3 bg-[#bbf7d0]/60 dark:bg-[#143d2b]/70 border-2 border-[#1c1c13] dark:border-[#71717a] rounded-2xl shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] flex items-start gap-2.5">
+      <span class="text-2xl select-none">📸</span>
+      <div class="flex-1 min-w-0">
+        <h4 class="font-bold text-xs sm:text-sm text-on-surface dark:text-[#f4f4f5]" data-i18n="interestPhotoTitle">攝影與紀錄</h4>
+        <p class="text-[11px] sm:text-xs text-on-surface-variant dark:text-[#a1a1aa] mt-0.5 leading-snug" data-i18n="interestPhotoDesc">日常寫筆記、隨手拍照，捕捉生活點滴與靈感</p>
+      </div>
+    </div>
+    <!-- Item 3: Music (HoneyWorks & Misekai) -->
+    <div class="p-3 bg-[#bae6fd]/60 dark:bg-[#16384c]/70 border-2 border-[#1c1c13] dark:border-[#71717a] rounded-2xl shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] flex items-start gap-2.5">
+      <span class="text-2xl select-none">🎧</span>
+      <div class="flex-1 min-w-0">
+        <div class="flex items-center gap-1.5 flex-wrap">
+          <h4 class="font-bold text-xs sm:text-sm text-on-surface dark:text-[#f4f4f5]" data-i18n="interestMusicTitle">音樂聆聽</h4>
+          <span class="text-[10px] px-1.5 py-0.5 bg-[#0284c7] text-white rounded-full font-bold">2,159首 / 49,995分</span>
+        </div>
+        <p class="text-[11px] sm:text-xs text-on-surface-variant dark:text-[#a1a1aa] mt-0.5 leading-snug" data-i18n="interestMusicDesc">偏好 HoneyWorks 與 ミセカイ，從旋律與歌詞汲取人生啟發</p>
+      </div>
+    </div>
+    <!-- Item 4: Anime & Gaming -->
+    <div class="p-3 bg-[#e9d5ff]/60 dark:bg-[#2d1b4e]/70 border-2 border-[#1c1c13] dark:border-[#71717a] rounded-2xl shadow-[2px_2px_0px_#1c1c13] dark:shadow-[2px_2px_0px_#09090b] flex items-start gap-2.5">
+      <span class="text-2xl select-none">🎮</span>
+      <div class="flex-1 min-w-0">
+        <h4 class="font-bold text-xs sm:text-sm text-on-surface dark:text-[#f4f4f5]" data-i18n="interestGameTitle">動漫與遊戲</h4>
+        <p class="text-[11px] sm:text-xs text-on-surface-variant dark:text-[#a1a1aa] mt-0.5 leading-snug" data-i18n="interestGameDesc">喜愛《文豪野犬》S4；沉浸原神、星穹鐵道、世界計畫、明日方舟等多款作品</p>
+      </div>
+    </div>
+  </div>
+  <!-- Mini tags for games & anime -->
+  <div class="flex flex-wrap gap-1.5 mt-2.5">
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#看棒球比賽</span>
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#攝影紀錄</span>
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#HoneyWorks</span>
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#ミセカイ</span>
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#文豪野犬</span>
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#原神</span>
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#星穹鐵道</span>
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#世界計畫</span>
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#明日方舟</span>
+    <span class="px-2.5 py-0.5 bg-surface-container dark:bg-[#27272a] border border-[#1c1c13]/40 dark:border-[#71717a] rounded-full text-[11px] font-semibold text-on-surface dark:text-[#d4d4d8]">#神魔之塔</span>
+  </div>
 </div>
 <!-- Static External Link Action Buttons -->
 <div>
@@ -271,12 +347,12 @@
     <div class="text-label-sm font-label-sm text-on-surface-variant dark:text-[#a1a1aa] mt-1 font-semibold" data-i18n="metricDiscrete">離散解題數</div>
   </div>
   <div class="bg-[#bbf7d0]/80 dark:bg-[#143d2b] border-2 border-[#1c1c13] dark:border-[#52525b] rounded-2xl p-3 sm:p-4 text-center shadow-[3px_3px_0px_#1c1c13] dark:shadow-[3px_3px_0px_#09090b]">
-    <div class="text-2xl sm:text-3xl font-black font-display text-on-surface dark:text-[#f4f4f5]">150+</div>
-    <div class="text-label-sm font-label-sm text-on-surface-variant dark:text-[#a1a1aa] mt-1 font-semibold" data-i18n="metricCalculus">微積分題庫</div>
+    <div class="text-2xl sm:text-3xl font-black font-display text-on-surface dark:text-[#f4f4f5]">2,159</div>
+    <div class="text-label-sm font-label-sm text-on-surface-variant dark:text-[#a1a1aa] mt-1 font-semibold" data-i18n="metricMusic">年收聽曲數</div>
   </div>
   <div class="bg-[#fef08a]/80 dark:bg-[#3d3814] border-2 border-[#1c1c13] dark:border-[#52525b] rounded-2xl p-3 sm:p-4 text-center shadow-[3px_3px_0px_#1c1c13] dark:shadow-[3px_3px_0px_#09090b]">
-    <div class="text-2xl sm:text-3xl font-black font-display text-on-surface dark:text-[#f4f4f5]">600h+</div>
-    <div class="text-label-sm font-label-sm text-on-surface-variant dark:text-[#a1a1aa] mt-1 font-semibold" data-i18n="metricCodingHours">Coding 時數</div>
+    <div class="text-2xl sm:text-3xl font-black font-display text-on-surface dark:text-[#f4f4f5]">49,995m</div>
+    <div class="text-label-sm font-label-sm text-on-surface-variant dark:text-[#a1a1aa] mt-1 font-semibold" data-i18n="metricMinutes">年音樂時長</div>
   </div>
 </div>
 
@@ -348,15 +424,31 @@
       hosted: "由 GitHub Pages 託管",
       deptBadge: "國立中山大學 資訊工程學系 一年級",
       chineseName: "(戴詩庭)",
+      nicknameLabel: "綽號：",
+      nicknames: "金魚 / 蛋餃 / 芋頭",
+      highschoolLabel: "高中：",
+      highschool: "臺北市立大同高級中學",
+      birthdayLabel: "生日：",
+      birthday: "2008 / 04 / 09",
       sayHello: "Say Hello",
       bio: "熱愛演算法與系統底層技術的資工系學生。從 Discrete Mathematics 的嚴謹證明到 C++ 的記憶體管理，樂於探究程式碼背後的底層運作邏輯，並朝著理想目標持續精進突破！",
-      quote: "Talk is cheap. Show me the code.",
-      focusHeader: "專注領域 & 核心能力",
+      quote: "努力也好，孤獨也好，有時是得不到回報的；但是即使如此，我們也一直走到了今天。人們稱之為日子的，那就是我們的軌跡，也是奇蹟。",
+      quoteJp: "「努力も孤独も報われないことがある だけどね それでもね 今日まで歩いてきた 日々を人は呼ぶ それがね、軌跡だと」",
+      quoteAuthor: "—— Mrs. GREEN APPLE《僕のこと》",
+      interestsHeader: "興趣與日常生活 (Interests & Lifestyle)",
+      interestBaseballTitle: "看棒球比賽",
+      interestBaseballDesc: "熱愛觀賞棒球比賽，享受現場熱血張力與球場氛圍",
+      interestPhotoTitle: "攝影與紀錄",
+      interestPhotoDesc: "日常寫筆記、隨手拍照，捕捉生活點滴與靈感",
+      interestMusicTitle: "音樂聆聽",
+      interestMusicDesc: "年收聽逾 2,159 首歌曲（49,995 分鐘），偏好 HoneyWorks 與 ミセカイ，從旋律與歌詞汲取人生啟發",
+      interestGameTitle: "動漫與遊戲",
+      interestGameDesc: "喜愛《文豪野犬》S4；沉浸原神、星穹鐵道、世界計畫、明日方舟等多款作品",
       orbitHeader: "探索 Mia 的社群宇宙",
       metricCpp: "C++ 專案數",
       metricDiscrete: "離散解題數",
-      metricCalculus: "微積分題庫",
-      metricCodingHours: "Coding 時數",
+      metricMusic: "年收聽曲數",
+      metricMinutes: "年音樂時長",
       card1Tag: "Academics",
       card1Date: "2026 - 目前",
       card1Title: "CS Foundations & Core Math",
@@ -386,15 +478,31 @@
       hosted: "Hosted via GitHub Pages",
       deptBadge: "Dept. of Computer Science & Engineering, NSYSU (Freshman)",
       chineseName: "(Tai, Shih-Ting)",
+      nicknameLabel: "Nicknames:",
+      nicknames: "Goldfish / Egg Dumpling / Taro",
+      highschoolLabel: "High School:",
+      highschool: "Taipei Municipal Datong High School",
+      birthdayLabel: "Birthday:",
+      birthday: "2008 / 04 / 09",
       sayHello: "Say Hello",
       bio: "A CS freshman passionate about algorithms and systems. From rigorous proofs in Discrete Mathematics to C++ memory management, I love exploring the underlying logic of code and striving toward my goals!",
-      quote: "Talk is cheap. Show me the code.",
-      focusHeader: "Focus Areas & Strengths",
+      quote: "“Effort and loneliness may sometimes go unrewarded. But even so, the days we have walked until today are what people call our track—and a miracle.”",
+      quoteJp: "「努力も孤独も報われないことがある だけどね それでもね 今日まで歩いてきた 日々を人は呼ぶ それがね、軌跡だと」",
+      quoteAuthor: "—— Mrs. GREEN APPLE 《Boku no Koto》",
+      interestsHeader: "Interests & Lifestyle",
+      interestBaseballTitle: "Watching Baseball",
+      interestBaseballDesc: "Passionate about watching baseball, immersed in thrilling match momentum and stadium hype",
+      interestPhotoTitle: "Photography & Notes",
+      interestPhotoDesc: "Taking notes & daily snapshots, documenting life moments, insights and inspiration",
+      interestMusicTitle: "Music Listening",
+      interestMusicDesc: "Listened to 2,159+ songs (49,995 mins) a year; favorites include HoneyWorks & Misekai",
+      interestGameTitle: "Anime & Gaming",
+      interestGameDesc: "Love Bungo Stray Dogs S4; fan of Genshin, Star Rail, Project SEKAI, Arknights & more",
       orbitHeader: "Explore Mia's Orbit",
       metricCpp: "C++ Projects",
       metricDiscrete: "Discrete Math Solved",
-      metricCalculus: "Calculus Exercises",
-      metricCodingHours: "Coding Hours",
+      metricMusic: "Music Tracks/Yr",
+      metricMinutes: "Listening Mins/Yr",
       card1Tag: "Academics",
       card1Date: "2026 - Present",
       card1Title: "CS Foundations & Core Math",
